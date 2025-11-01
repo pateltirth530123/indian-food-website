@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemade Indian Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍛 Homemade Indian Food</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our homemade Indian food website! Discover delicious, easy-to-cook Indian recipes made with love and traditional spices.</p>
+    </section>
+
+    <section id="indian-food">
+  <h2>Indian Food Menu</h2>
+
+  <!-- Gujarati Category -->
+  <div class="category-card" onclick="toggleCategory('Gujarati-menu')">
+    <h3>Gujarati</h3>
+    <p>Click to see all Gujarati dishes</p>
+  </div>
+  <div id="Gujarati-menu" class="category-menu">
+    <ul>
+      <li>Fix Thali</li>
+      <li>Gujarati Dal</li>
+    </ul>
+  </div>
+
+  <!-- Punjabi Category -->
+  <div class="category-card" onclick="toggleCategory('Punjabi-menu')">
+    <h3>Punjabi</h3>
+    <p>Click to see all Punjabi dishes</p>
+  </div>
+  <div id="Punjabi-menu" class="category-menu">
+    <ul>
+      <li>Paneer Butter Masala</li>
+      <li>Shahi Paneer</li>
+      <li>Paneer Tikka</li>
+      <li>Palak Paneer</li>
+      <li>Paneer Bhurji</li>
+      <li>Dal Makhani</li>
+      <li>Chole Bhature</li>
+    </ul>
+  </div>
+
+  <!-- South Indian Category -->
+  <div class="category-card" onclick="toggleCategory('south-menu')">
+    <h3>South Indian</h3>
+    <p>Click to see South Indian dishes</p>
+  </div>
+  <div id="south-menu" class="category-menu">
+    <ul>
+      <li>Masala Dosa</li>
+      <li>Idli Sambar</li>
+      <li>Vada</li>
+      <li>Uttapam</li>
+    </ul>
+  </div>
+</section>
+
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Got a recipe suggestion? Email us at <a href="mailto:recipes@homemadeindianfood.com">recipes@homemadeindianfood.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Homemade Indian Food | Made with ❤️ in India</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
